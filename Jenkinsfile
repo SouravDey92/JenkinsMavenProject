@@ -7,9 +7,9 @@ pipeline {
 				      a: {
 					bat "mvn clean"
 				      },
-				      //b: {
-					//bat "mvn test"
-				     // },
+				      b: {
+					bat "mvn test"
+				      },
 				      c: {
 					bat "mvn package"
 				      }
